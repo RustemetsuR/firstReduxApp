@@ -1,0 +1,54 @@
+.door-pass-box {
+    text-align: center;
+    margin: 30px;
+}
+
+.door-pass-box button {
+    margin: 5px;
+}
+
+.door-pass{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px 0;
+    position: relative;
+}
+
+.inp{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.btns-box{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btns-box button{
+    width: 25%;
+    display: inline-block;
+}
+
+.pass-block{
+    position: absolute;
+    top: 38px;
+    padding: 0px 3px 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.right-pass{
+    background: greenyellow;
+}
+
+.wrong-pass{
+    background: red;
+}
